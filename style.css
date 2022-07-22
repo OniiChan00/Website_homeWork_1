@@ -1,0 +1,96 @@
+img{
+    height: 300px;
+    width: 500px;
+    padding: 2%;
+}
+
+
+.container-fluid h1{
+    padding-top: 3%;
+    display: inline-block;
+}
+
+.container-fluid{
+    text-align: center;
+
+    height: 200px;
+}
+
+.col-imp a{
+    color: white;
+}
+
+
+.row{
+    padding-top: 2%;
+}
+
+.col,.col-imp{
+    text-align: center;
+    font-family: 'Kodchasan', sans-serif;
+}
+
+.col-imp{
+    background-color: gray;
+    background-position: center;
+    color: white;
+    border-style: dotted;
+}
+
+
+
+
+.row-cols-1{
+    padding-left: 45%;
+    text-align: left;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+}
+
+.animated {
+    background-repeat: no-repeat;
+    background-position: center; 
+    animation-duration: 4s;
+    animation-fill-mode: both;
+}
+
+.col-imp h2{
+    color: white;
+}
+
+
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}   
+
+.fadeInRight {
+    animation-name: fadeInRight;
+}
+
+.ext h2{
+    color: #9D270E ;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
