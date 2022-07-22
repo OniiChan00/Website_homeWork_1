@@ -36,8 +36,16 @@ img{
     color: white;
 }
 
-
-
+.zoom {
+    padding: 50px;
+    transition: transform;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+    transition: 3s;
+  }
 
 .row-cols-1{
     padding-left: 45%;
